@@ -43,7 +43,7 @@ public class MainRPS
         scanner.close(); // Close scanner after loop ends
     }
 
-    // ✅ Pass Scanner as parameter to avoid multiple instances
+
     public static String choiceSender(Scanner scanner)
     {
         return scanner.nextLine();
